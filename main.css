@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 
 :root {
@@ -20,6 +20,8 @@ body {
 }
 
 .frame {
+    display: flex;
+    flex-direction: column;
     margin: 5rem auto;
     padding: 24px;
     max-width: 275px;
@@ -31,9 +33,7 @@ body {
 }
 
 .profile {
-
     width: 30%;
-
     margin-bottom: 1.7rem;
 }
 
